@@ -153,10 +153,12 @@ if uploaded_file is not None:
         1: '🚨 Fraudulent'
     })
     df_upload['Fraud Probability %'] = (probabilities[:, 1] * 100).round(2)
-    df_upload['Risk Level'] = pd.cut(
-        probabilities[:, 1],
-        bins=[0, 0.3, 0.7, 1.0],
-        labels=['🟢 Low', '🟡 Medium', '🔴 High']
+
+    df_upload['Risk Level'] = df_upload['Fraud Probability %'].apply(
+        lambda x: '🔴 High' if x >= 70
+        else ('🟡 Medium' if x >= 30
+              else ('🟢 Low' if x > 0
+                    else '⚪ Safe'))
     )
 
     st.markdown("### 📊 Analysis Summary")
