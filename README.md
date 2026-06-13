@@ -13,6 +13,8 @@
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
 
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Streamlit_Cloud-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://vidhya-majee-credit-card-fraud-detection-system-app-kdxeyd.streamlit.app/)
+
 <br>
 
 > 🛡️ An enterprise-grade fraud detection pipeline that analyzes **284,807 transactions**,
@@ -21,6 +23,7 @@
 
 <br>
 
+[🌐 Live Demo](https://vidhya-majee-credit-card-fraud-detection-system-app-kdxeyd.streamlit.app/) •
 [🚀 Getting Started](#-getting-started) •
 [📊 Results](#-key-results) •
 [🧠 How It Works](#-how-it-works) •
@@ -33,6 +36,7 @@
 
 ## 📑 Table of Contents
 
+- [Live Demo](#-live-demo)
 - [Problem Statement](#-problem-statement)
 - [Key Results](#-key-results)
 - [How It Works](#-how-it-works)
@@ -46,6 +50,17 @@
 - [Contributing](#-contributing)
 - [License](#-license)
 - [About the Author](#-about-the-author)
+
+---
+
+## 🌐 Live Demo
+
+> 🔗 **Try it now →** [**Credit Card Fraud Detection System**](https://vidhya-majee-credit-card-fraud-detection-system-app-kdxeyd.streamlit.app/)
+
+The app is deployed on **Streamlit Community Cloud** — no installation required! You can:
+- 🔍 Test **single transactions** with pre-loaded fraud/normal samples
+- 📂 Upload a **CSV file** for batch fraud analysis
+- 🧠 View **SHAP explanations** for each prediction
 
 ---
 
