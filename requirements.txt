@@ -1,10 +1,10 @@
- pandas > requirements.txt
- numpy >> requirements.txt
- scikit-learn >> requirements.txt
- imbalanced-learn >> requirements.txt
- xgboost >> requirements.txt
- shap >> requirements.txt
- streamlit >> requirements.txt
- joblib >> requirements.txt
- matplotlib >> requirements.txt
- seaborn >> requirements.txt
+pandas
+numpy
+scikit-learn
+imbalanced-learn
+xgboost
+shap
+streamlit
+joblib
+matplotlib
+seaborn
