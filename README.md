@@ -242,8 +242,8 @@ credit-fraud-detector/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Vidhya-Majee/credit-fraud-detector.git
-cd credit-fraud-detector
+git clone https://github.com/Vidhya-Majee/credit-card-fraud-detection-system.git
+cd credit-card-fraud-detection-system
 
 # 2. Create a virtual environment (recommended)
 python -m venv venv
